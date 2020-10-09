@@ -35,7 +35,7 @@ namespace lab_12
                     people.Add(new Person());
             }
             else
-                throw new Exception("Invalid imput.");
+                throw new Exception("Invalid input.");
 
             MyCollection<Person> myCol_2 = new MyCollection<Person>(people);
             SetColor.ReversedBW("Коллекция");
